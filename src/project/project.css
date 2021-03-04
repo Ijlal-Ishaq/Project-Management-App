@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.p_head{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    background-color: rgba(255, 255, 255, 0.712);
+    background-color: #15c0c0;
+    
+    z-index: 1;
+}
+
+.p_details{
+    background-color: #15c0c0;
+    border-radius: 9px;
+    margin-top: 80px;
+    box-shadow: 0 0 9px gray;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 13px;
+}
+.p_name{
+    color: #fff;
+    text-align: left;
+    font-size: x-large;
+    text-shadow: 0 0 1px gray;
+    word-break:break-all;
+    max-lines: 1;
+}
+.p_des{
+    color: #fff;
+    text-align: left;
+    font-size: medium;
+    padding-top:7px;
+    font-weight: 300;
+    text-shadow: 0 0 1px gray;
+    word-break:break-all;
+    
+}
+
+.p_username{
+    
+    display: inline-block;
+    position: fixed;
+    font-size: medium;
+    font-weight: 300;
+    right: 0;
+    margin: 15px;
+    background-color: #ff676a;
+    color: #fff;
+    border-radius: 9px;
+    padding: 9px;;
+    
+}
+.tasks{
+    
+    
+   
+    
+}
+
+.task{
+ 
+    
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.p_bar{
+    
+    width: 3px;
+    height: 63px;
+    display: block;
+    margin-left: 8px;
+    background-color: #383838;;
+}
+.p_circle{
+    width: 13px;
+    height: 13px;
+    display: block;
+    border-radius: 13px;
+    border: solid 3px #383838;
+    background-color: #ff676a;
+}
+
+.p_circle_d{
+    width: 13px;
+    height: 13px;
+    display: block;
+    border-radius: 13px;
+    border: solid 3px #383838;
+    background-color: #15c0c0;
+}
+
+.design{
+    
+    display: inline-block;
+    position: absolute;
+    
+    left: 5%;
+    
+   
+    
+}
+
+.task_details{
+    display: inline-block;
+    position :relative;
+    width: 80%;
+    margin-top: 39px;
+    margin-left: 15px;
+    
+    background-color: #ffbe00;
+    border-radius: 9px;
+    padding: 9px;
+    
+    
+
+    box-shadow: 0 0 9px gray;
+}
+
+.t_name{
+
+    text-align: left;
+    color: #fff;
+    font-size: large;
+    font-weight: 900;
+    padding: 5px;
+    text-shadow: 0 0 1px gray;
+
+
+}
+
+.t_des{
+    
+    text-align: left;
+    color: #fff;
+    font-size: large;
+    font-weight: 300;
+    padding: 5px;
+    padding-top: 0;
+    text-shadow: 0 0 1px gray;
+
+}
+
+.delete_btn_t{
+    position: absolute;
+    color: #ffff;
+    background-color: #ff676a;
+    box-shadow: 0 0 5px gray;
+    padding: 5px;
+    padding-left: 11px;
+    padding-right: 11px;
+    font-weight: 9300;
+    font-size: large;
+    border-radius: 90px;
+    right:7%;
+    margin-top: 29px;
+    z-index: 1;
+    
+    
+
+}

@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #383838;
+    text-decoration: none;
+}
+.head{
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.712);
+    z-index: 3;
+    
+    
+    
+
+}
+.heading{
+    font-size: xx-large;
+    margin: 15px;
+    display: inline-block;
+    position: fixed;
+    left:  0;
+    
+}
+.username{
+    
+    
+    display: inline-block;
+    position: fixed;
+    font-size: medium;
+    font-weight: 300;
+    right: 0;
+    margin: 15px;
+    background-color: #ffbe00;
+    border-radius: 9px;
+    padding: 9px;
+    
+    
+    
+}
+.projects{
+    
+    width: 100%;
+    margin-top: 85px;
+    margin-bottom: 50px;
+
+}
+
+.project{
+    width: 85%;
+    padding: 15px;
+    padding-top: 9px;
+    border-radius: 9px;
+    box-shadow: 0 0 5px gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 9px;
+    background-color: #15c0c0;
+}
+
+.project_name{
+
+    color:#ffff;
+    font-size: large;
+    text-align: left;
+    text-shadow: 0 0 1px gray;
+    margin-top: 7px;
+    word-break:break-all;
+    
+    
+
+}
+
+
+.project_description{
+    font-size: medium;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 7px;
+    color: #ffff;
+    text-shadow: 0 0 1px gray;
+    word-break:break-all;
+
+}
+
+.fab{
+    position: fixed;
+    bottom: 19px;
+    right: 19px;
+    
+    box-shadow: 0 0 9px gray;
+    
+    border-radius: 59px;
+    padding: 13px;
+    padding-left: 23px;
+    padding-right: 23px;
+    
+    z-index: 3;
+
+    font-size: xx-large;
+    color: #ffff;
+    font-weight: 300;
+    background-color: #ff676a;
+}
+
+.delete_btn{
+    position:absolute;
+    color: #ffff;
+    background-color: #ff676a;
+    box-shadow: 0 0 5px gray;
+    padding: 5px;
+    padding-left: 11px;
+    padding-right: 11px;
+    font-weight: 9300;
+    font-size: large;
+    border-radius: 90px;
+    right:4%;
+    
+    
+
+}
